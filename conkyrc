@@ -1,0 +1,89 @@
+#Modified by David Chen <chendahui007@gmail.com> at May 26,2012
+# I copied it from somewhere else but I have forgot the url .
+#This conkyrc suits for my ASUS laptop K42JE .ArchLinux &xfce4(wm) with 14' screen 
+#No copyright at all . You can modify it yourself  . Have fun !
+background yes
+use_xft yes
+xftfont 123:size=8
+xftalpha 0.1
+update_interval 1
+total_run_times 0
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 250 5
+maximum_width 400
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color blue
+default_shade_color red
+default_outline_color green
+alignment bottom_right
+gap_x 10
+gap_y 10
+no_buffers yes
+uppercase no
+cpu_avg_samples 2 
+net_avg_samples 2
+override_utf8_locale yes
+use_spacer right
+text_buffer_size 256
+
+TEXT
+${font Liberation Serif:size=20}${color Tan1}${alignc}ArchLinux${color Gray} ${font Liberation Serif:size=20}
+${voffset -90}
+${color DimGray}
+${font}
+${font Liberation Serif:bold:size=12}${color Tan1}SYSTEM ${color DarkSlateGray} ${hr 2}
+$font${color DimGray}$sysname $kernel$alignr$nodename
+${pre_exec cat /proc/cpuinfo | grep "model name" -m1 | cut -d":" -f2 | cut -d" " -f2- | sed 's#Processor ##'}
+Uptime $alignr${uptime}
+Temperature ${alignr}${acpitemp}°C 
+Battery ${alignr}$battery_percent%
+#
+${font Liberation Serif:bold:size=12}${color Tan1}PROCESSORS ${color DarkSlateGray}${hr 2}
+$font${color DimGray}CPU1  ${cpu cpu1}% ${cpubar cpu1}
+CPU2  ${cpu cpu2}% ${cpubar cpu2}
+CPU3  ${cpu cpu3}% ${cpubar cpu3}
+CPU4  ${cpu cpu4}% ${cpubar cpu4}
+#
+${font Liberation Serif:bold:size=12}${color Tan1}MEMORY ${color DarkSlateGray}${hr 2}
+$font${color DimGray}MEM $alignc $mem / $memmax $alignr $memperc%
+$membar
+$font${color DimGray}Swap Usage$alignc$swap/$swapmax
+$swapbar
+${font Liberation Serif:bold:size=12}${color Tan1}HDD ${color DarkSlateGray}${hr 2}
+$font${color DimGray}/ $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_free_perc /}%
+${fs_bar /}
+/home $alignc ${fs_used /home} / ${fs_size /home} $alignr ${fs_free_perc /home}%
+${fs_bar /home}
+
+#${font Liberation Serif:bold:size=12}${color Tan1}TOP PROCESSES ${color DarkSlateGray}${hr 2}
+#${color DimGray}$font${top_mem name 1}${alignr}${top mem 1} %
+#$font${top_mem name 2}${alignr}${top mem 2} %
+#$font${top_mem name 3}${alignr}${top mem 3} %
+#$font${top_mem name 4}${alignr}${top mem 4} %
+${font Liberation Serif:bold:size=12}${color Tan1}TOP 5 PROCESSES ${color DarkSlateGray}${hr 2}
+$font${color Tan1}Name $alignr PID      CPU      MEM ${color DarkSlateGray} 
+$font${top name 1} $alignr${top pid 1} ${top cpu 1}% ${top mem 1}%
+$font${top name 2} $alignr${top pid 2} ${top cpu 2}% ${top mem 2}%
+$font${top name 3} $alignr${top pid 3} ${top cpu 3}% ${top mem 3}%
+$font${top name 4} $alignr${top pid 4} ${top cpu 4}% ${top mem 4}%
+$font${top name 5} $alignr${top pid 5} ${top cpu 5}% ${top mem 5}%
+#
+#There should be a selection of either eth0 or wlan0 ,but I don't know how to do that .
+${font Liberation Serif:bold:size=12}${color Tan1}NETWORK ${color DarkSlateGray}${hr 2}
+$font${color Tan1}IP on wlan0 $alignr ${addr wlan0}
+${color Tan1}Down $alignr ${downspeed wlan0} $alignc
+Up $alignr ${upspeed wlan0} 
+${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}
+Downloaded $alignr  ${totaldown wlan0}
+Uploaded $alignr  ${totalup wlan0}
+${font Liberation Serif:bold:size=12}${color Tan2}TIME ${color DarkSlateGray}${hr 2}
+${color White} ${font :size=30}$alignc${time %H:%M:%S}
+${voffset -30}${font :bold:size=11}$alignc${time %d %b, %Y}
+${font :bold:size=9}$alignc${time %A}

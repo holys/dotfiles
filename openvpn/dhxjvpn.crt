@@ -1,0 +1,73 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=CN, ST=SH, L=Shanghai, O=Fort-Funston, OU=david, CN=david/name=david/emailAddress=chendahui007@gmail.com
+        Validity
+            Not Before: Sep  5 16:32:57 2012 GMT
+            Not After : Sep  3 16:32:57 2022 GMT
+        Subject: C=CN, ST=SH, L=Shanghai, O=Fort-Funston, OU=david, CN=dhxjvpn/name=david/emailAddress=chendahui007@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:b2:21:ee:33:fc:e4:65:2f:e3:20:bf:3c:c0:6d:
+                    46:c6:74:1e:0f:97:1d:a2:33:84:8c:77:1c:8c:83:
+                    f7:d2:e0:e6:c0:a9:b4:5d:da:41:60:1a:c3:dd:25:
+                    5c:f0:0b:c0:e0:db:ff:9b:31:73:6f:87:43:cc:15:
+                    17:96:fb:a2:dd:1c:2c:6f:a5:0f:28:c4:e8:4f:b4:
+                    9d:26:21:59:53:76:89:47:43:b1:cd:39:fc:60:8c:
+                    8d:99:89:1c:d5:76:98:d6:39:79:44:64:fa:f6:b3:
+                    20:c0:8a:4c:22:40:ca:ff:52:d0:b5:a3:e8:75:7d:
+                    0a:93:09:bb:ec:d6:1b:32:73
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                F4:29:E1:63:04:CD:71:37:F5:D6:EF:0C:2C:23:0B:8B:42:98:4D:3A
+            X509v3 Authority Key Identifier: 
+                keyid:4F:0F:2B:F3:02:C1:1F:25:60:C9:7D:EC:DA:93:A8:76:5B:A0:17:C7
+                DirName:/C=CN/ST=SH/L=Shanghai/O=Fort-Funston/OU=david/CN=david/name=david/emailAddress=chendahui007@gmail.com
+                serial:EA:C9:C4:EA:90:23:15:F1
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         5d:f3:e5:64:2c:3b:b0:e3:f3:4e:76:27:c7:55:ee:2b:46:f4:
+         e1:89:07:aa:da:e5:24:61:6b:fa:a3:8e:02:98:3b:49:92:1c:
+         d2:ce:3b:5f:4f:18:d1:a1:10:2f:69:20:20:8a:97:6f:81:51:
+         80:82:7e:3d:9a:42:e2:20:b1:65:c4:09:11:44:26:39:83:62:
+         b8:60:86:da:77:bb:49:19:2d:c6:60:d7:d9:50:72:60:1f:54:
+         ee:54:ad:de:e7:c5:17:7f:bc:c2:d7:58:ab:7f:38:fb:71:75:
+         34:2e:67:a1:89:df:4d:d4:a5:5b:b3:4d:f2:56:ae:33:6d:51:
+         fa:f2
+-----BEGIN CERTIFICATE-----
+MIIEBDCCA22gAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBmzELMAkGA1UEBhMCQ04x
+CzAJBgNVBAgTAlNIMREwDwYDVQQHEwhTaGFuZ2hhaTEVMBMGA1UEChMMRm9ydC1G
+dW5zdG9uMQ4wDAYDVQQLEwVkYXZpZDEOMAwGA1UEAxMFZGF2aWQxDjAMBgNVBCkT
+BWRhdmlkMSUwIwYJKoZIhvcNAQkBFhZjaGVuZGFodWkwMDdAZ21haWwuY29tMB4X
+DTEyMDkwNTE2MzI1N1oXDTIyMDkwMzE2MzI1N1owgZ0xCzAJBgNVBAYTAkNOMQsw
+CQYDVQQIEwJTSDERMA8GA1UEBxMIU2hhbmdoYWkxFTATBgNVBAoTDEZvcnQtRnVu
+c3RvbjEOMAwGA1UECxMFZGF2aWQxEDAOBgNVBAMTB2RoeGp2cG4xDjAMBgNVBCkT
+BWRhdmlkMSUwIwYJKoZIhvcNAQkBFhZjaGVuZGFodWkwMDdAZ21haWwuY29tMIGf
+MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyIe4z/ORlL+MgvzzAbUbGdB4Plx2i
+M4SMdxyMg/fS4ObAqbRd2kFgGsPdJVzwC8Dg2/+bMXNvh0PMFReW+6LdHCxvpQ8o
+xOhPtJ0mIVlTdolHQ7HNOfxgjI2ZiRzVdpjWOXlEZPr2syDAikwiQMr/UtC1o+h1
+fQqTCbvs1hsycwIDAQABo4IBUjCCAU4wCQYDVR0TBAIwADAtBglghkgBhvhCAQ0E
+IBYeRWFzeS1SU0EgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBT0KeFj
+BM1xN/XW7wwsIwuLQphNOjCB0AYDVR0jBIHIMIHFgBRPDyvzAsEfJWDJfezak6h2
+W6AXx6GBoaSBnjCBmzELMAkGA1UEBhMCQ04xCzAJBgNVBAgTAlNIMREwDwYDVQQH
+EwhTaGFuZ2hhaTEVMBMGA1UEChMMRm9ydC1GdW5zdG9uMQ4wDAYDVQQLEwVkYXZp
+ZDEOMAwGA1UEAxMFZGF2aWQxDjAMBgNVBCkTBWRhdmlkMSUwIwYJKoZIhvcNAQkB
+FhZjaGVuZGFodWkwMDdAZ21haWwuY29tggkA6snE6pAjFfEwEwYDVR0lBAwwCgYI
+KwYBBQUHAwIwCwYDVR0PBAQDAgeAMA0GCSqGSIb3DQEBBQUAA4GBAF3z5WQsO7Dj
+8052J8dV7itG9OGJB6ra5SRha/qjjgKYO0mSHNLOO19PGNGhEC9pICCKl2+BUYCC
+fj2aQuIgsWXECRFEJjmDYrhghtp3u0kZLcZg19lQcmAfVO5Urd7nxRd/vMLXWKt/
+OPtxdTQuZ6GJ303UpVuzTfJWrjNtUfry
+-----END CERTIFICATE-----
