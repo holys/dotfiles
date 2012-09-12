@@ -9,7 +9,7 @@ require("naughty")
 
 awful.util.spawn_with_shell("fcitx")
 awful.util.spawn_with_shell("tilda")
-awful.util.spawn_with_shell("sh Dev/Opt/proxy.sh ")
+awful.util.spawn_with_shell("sh $HOME/dotfiles/proxy.sh ")
 --awful.util.spawn_with_shell("wicd-client --tray")
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to

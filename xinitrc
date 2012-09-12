@@ -20,7 +20,6 @@ fi
 #killall fcitx
 #fcitx & 
 #exec ck-launch-session gnome-session
-nm-applet --sm-disable &
 #exec ck-launch-session startkde
 # exec startxfce4
 # ...or the Window Manager of your choice
