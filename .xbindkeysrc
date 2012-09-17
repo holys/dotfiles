@@ -10,4 +10,24 @@
 	m:0x0 + c:121
 	XF86AudioMute
 
+"sudo pm-suspend"
+    m:0x0 + c:150
+    XF86Sleep
+
+"dolphin"
+    m:0x0 + c:223
+    XF86Mail
+
+"chromium"
+    m:0x0 + c:158
+    XF86WWW
+
+"NoCommand"
+    m:0x0 + c:235
+    XF86Display
+
+"~/.togtp.sh"
+    m:0x0 + c:191
+    XF86Tools
+
 
