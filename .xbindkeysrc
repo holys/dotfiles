@@ -22,12 +22,19 @@
     m:0x0 + c:158
     XF86WWW
 
-"NoCommand"
+"sh ./.display"
     m:0x0 + c:235
     XF86Display
 
-"~/.togtp.sh"
+"sh ~/.togtp.sh"
     m:0x0 + c:191
     XF86Tools
 
+"xrandr --output VGA-0  --mode 1024x768 --right-of LVDS"
+    m:0x0 + c:235
+    XF86Display
+
+"scrot -s"
+    m:0x0 + c:107
+        Print
 
