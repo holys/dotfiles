@@ -21,8 +21,10 @@ killall fcitx
 fcitx & 
 xbindkeys & 
 tilda &
+
 sh $HOME/dotfiles/proxy.sh &
-xrandr --output LVDS --mode 1366x768 --output VGA-0 --mode 1024x768 --right-of LVDS 
+#xrandr --output LVDS --mode 1366x768 --output VGA-0 --mode 1024x768 --right-of LVDS 
+sh ~/.display
 #wicd-client --tray 
 #exec ck-launch-session gnome-session
 #exec ck-launch-session startkde
