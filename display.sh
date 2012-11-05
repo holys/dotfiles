@@ -2,7 +2,7 @@
 
 CURR_STATE=`xrandr -q |grep VGA-0 | awk '{print $3}' | wc -m`
 #echo $CURR_STATE
-if [ $CURR_STATE = '16'  ]
+if [ $CURR_STATE = '8'  ]
     then 
        eval  `xrandr --output VGA-0 --off`
        eval  `cat ~/.fehbg`
