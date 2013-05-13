@@ -18,19 +18,20 @@
     m:0x0 + c:223
     XF86Mail
 
-"chromium"
+"chromium" 
     m:0x0 + c:158
     XF86WWW
 
-"sh ./.display"
+"sh ~/.display"
     m:0x0 + c:235
     XF86Display
 
 "sh ~/.togtp.sh"
     m:0x0 + c:191
     XF86Tools
-
-"scrot -s -b -e 'mv $f ~/youyou/images/'``"
+"scrot -e 'mv $f ~/Gone/Movies/screenshot 2>/dev/null'"
     m:0x0 + c:107
     Print
+
+
 

@@ -1,1 +1,4 @@
 *.swp
+log
+goagent*
+nohup.out

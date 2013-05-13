@@ -4,7 +4,7 @@
 #
 # Executed by startx (run your window manager from here)
 
-#eval 'dbus-launch  --sh-syntax --exit-with-session'
+eval `dbus-launch --sh-syntax --exit-with-session`
 
 if [ -d /etc/X11/xinit/xinitrc.d ]; then
   for f in /etc/X11/xinit/xinitrc.d/*; do
@@ -19,16 +19,17 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 killall fcitx
 fcitx & 
-xbindkeys & 
-tilda &
+
 
 sh $HOME/dotfiles/proxy.sh &
-#xrandr --output LVDS --mode 1366x768 --output VGA-0 --mode 1024x768 --right-of LVDS 
-sh ~/.display
-#wicd-client --tray 
+xbindkeys &
+#$HOME/env/bin/supervisord 
+#pushd wiki_me &&nohup  gollum  --port 45678 &
 #exec ck-launch-session gnome-session
 #exec ck-launch-session startkde
 # exec startxfce4
 # ...or the Window Manager of your choice
-exec dbus-launch awesome
+#exec dbus-launch awesome
 #xterm
+#exec awesome
+exec i3 
