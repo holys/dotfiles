@@ -1,3 +1,13 @@
+# ------------------------------------------------------------------+-+
+# Usage:
+#   1. install `hostapd` and `dhcp`                                
+#  
+#   $ sudo pacman -S hostapd dhcp
+#    
+#   2. configure /etc/hostapd/hostapd.conf  and /etc/dhcpd.conf 
+#
+# ------------------------------------------------------------------+----
+
 ip link set up dev wlan0
 systemctl restart hostapd.service
 ip addr add 10.0.0.1/24 dev wlan0
