@@ -23,6 +23,7 @@ fcitx &
 
 sh $HOME/dotfiles/proxy.sh &
 xbindkeys &
+#nohup sudo /home/david/Gone/rjsupplicant/rjsupplicant.sh >> /home/david/Gone/rjsupplicant/log.txt 2>&1 &
 #$HOME/env/bin/supervisord 
 #pushd wiki_me &&nohup  gollum  --port 45678 &
 #exec ck-launch-session gnome-session

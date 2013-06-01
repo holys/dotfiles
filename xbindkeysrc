@@ -14,7 +14,7 @@
     m:0x0 + c:150
     XF86Sleep
 
-"dolphin"
+"chromium http://mail.google.com"
     m:0x0 + c:223
     XF86Mail
 
@@ -22,9 +22,10 @@
     m:0x0 + c:158
     XF86WWW
 
-"sh ~/.display"
+"autorandr --change"
     m:0x0 + c:235
-    XF86Display
+        XF86Display
+
 
 "sh ~/.togtp.sh"
     m:0x0 + c:191
